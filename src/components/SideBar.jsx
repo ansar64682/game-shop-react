@@ -13,7 +13,7 @@ const genres = [
   { name: "Open World", icon: "bi-globe" },
 ];
 
-function SideBar() {
+function SideBar({ setGenreFilter }) {
   const [isOpen, setIsOpen] = useState(true);
 
   return (
@@ -37,6 +37,7 @@ function SideBar() {
               key={index}
               className="d-flex align-items-center gap-2 px-2 py-2 text-light bg-dark rounded shadow-sm genre-item"
               style={{ cursor: "pointer" }}
+              onClick={() => setGenreFilter(genre.name)} // 👈 The actual change
             >
               <i className={`bi ${genre.icon}`}></i>
               <span>{genre.name}</span>
