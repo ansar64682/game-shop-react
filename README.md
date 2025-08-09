@@ -52,14 +52,14 @@ cd your-repo
 
 ### 2. Install Dependencies
 
-````bash
-Copy
-Edit
+```bash
+
 npm install
+```
 
 ### 3. Run the Development Server
+
 ```bash
-Copy
-Edit
+
 npm run dev
-````
+```
