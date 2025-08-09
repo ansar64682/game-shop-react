@@ -49,3 +49,17 @@ This project is a practical showcase of **fundamental to intermediate** React sk
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 ```
+
+### 2. Install Dependencies
+
+````bash
+Copy
+Edit
+npm install
+
+### 3. Run the Development Server
+```bash
+Copy
+Edit
+npm run dev
+````
