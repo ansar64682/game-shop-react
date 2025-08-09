@@ -81,7 +81,7 @@
 }
 
 .lowerSectionDark {
-  background: #1e1e1e;
+  background: linear-gradient(145deg, #794343, #1c1c1c);
   color: white;
 }
 
@@ -103,7 +103,7 @@
 }
 
 .dark .gameCard {
-  background: linear-gradient(145deg, #2d2d2d, #1c1c1c);
+  background: linear-gradient(145deg, #474545, #1c1c1c);
   color: white;
 }
 

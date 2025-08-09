@@ -2,7 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import styles from "../assets/css/AppLayout.module.css";
 
-function Header({ isDarkMode, toggleDarkMode, title }) {
+function Header({
+  isDarkMode,
+  toggleDarkMode,
+  title,
+  searchTerm,
+  setSearchTerm,
+}) {
   return (
     <div
       className={`d-flex align-items-center justify-content-between ${styles.header}`}
@@ -18,15 +24,11 @@ function Header({ isDarkMode, toggleDarkMode, title }) {
           <input
             type="text"
             className="form-control rounded-pill px-3"
-            placeholder="Search games..."
             aria-label="Search"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            placeholder="Search games..."
           />
-          <button
-            className="btn btn-outline-light rounded-pill ms-2"
-            type="button"
-          >
-            Search
-          </button>
         </div>
       </div>
 

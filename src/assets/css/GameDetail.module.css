@@ -1,0 +1,49 @@
+.gameDetail {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.gameDetail h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.gameDetail img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1.5rem;
+  border-radius: 8px;
+}
+
+.gameDetail p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.gameDetail ul {
+  list-style: none;
+  padding: 0;
+  border-top: 1px solid #eee;
+  margin-top: 1.5rem;
+}
+
+.gameDetail li {
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.gameDetail li strong {
+  display: inline-block;
+  width: 140px;
+  color: #333;
+}

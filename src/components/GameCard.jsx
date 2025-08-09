@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import styles from "../assets/css/gameCard.module.css";
 
-function GameCard({ game, isDarkMode }) {
+function GameCard({ game, isDarkMode, onClick }) {
   const { title, genre, rating, date = {}, platform = [], cover } = game;
   const { day, month, year } = date;
 
@@ -16,6 +16,7 @@ function GameCard({ game, isDarkMode }) {
   return (
     <div
       className={`${styles.gameCardWrapper} ${isDarkMode ? styles.dark : ""}`}
+      onClick={onClick}
     >
       <div className={styles.gameCard}>
         {/* 🎮 Cover */}

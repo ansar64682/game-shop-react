@@ -63,11 +63,9 @@
   height: 100vh;
   overflow-y: auto;
   background: #ffffff;
-  border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
-  padding-bottom: 6rem;
 }
 
 /* === Top Ribbon === */
@@ -76,7 +74,7 @@
   top: 0;
   z-index: 10;
   background: white;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   border-bottom: 1px solid #ddd;
   display: flex;
   flex-wrap: wrap;
@@ -106,11 +104,11 @@
 }
 
 .dark {
-  background-color: #1e1e1e; /* or something stylish dark */
+  background-color: #373737; /* or something stylish dark */
   color: #f1f1f1;
 }
 
 .ribbonDark {
-  background-color: #1e1e1e; /* or something stylish dark */
+  background-color: #262424; /* or something stylish dark */
   color: #f1f1f1;
 }

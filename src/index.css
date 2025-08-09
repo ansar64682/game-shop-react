@@ -15,3 +15,7 @@ body,
   color: #222;
   overflow-x: hidden;
 }
+
+:root {
+  --ui-scale: 0.8;
+}
